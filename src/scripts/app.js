@@ -3,27 +3,40 @@ import ReactDOM from 'react-dom'
 
 const app = function() {
 
-	const Header = React.createClass({
+	const Body = React.createClass({
 		render: () => {
-			return <div>
-						<img src="../images/houston.jpg"></img>
+			return  <div className="container">
+						<div>
+							<img src="http://magentanova.github.io/html-intro-1/images/houston.jpg"></img>
+							<img src="http://magentanova.github.io/html-intro-1/images/ironyardlogo.png"></img>
+						</div>
+						<Sect1/>
+						<Sect2/>
+						<FollowBox/>
 					</div>
 		}
 	})
 
-	const Body = React.createClass({
+	const Sect1 = React.createClass({
 		render: () => {
-			return <p>This works!</p>
+			return <div className="sect1">lorem	</div>
+
 		}
 	})
 
-	const Midsection = React.createClass({
+	const Sect2 = React.createClass({
 		render: () => {
-			return 
+			return <div className="sect2">ipsum </div>
 		}
 	})
 
-	ReactDOM.render(<Header/>,document.querySelector('.container'))
+	const FollowBox = React.createClass({
+		render: () => {
+			return <div className="followBox"> Cool box <button></button></div>
+		}
+	})
+
+	ReactDOM.render(<Body />,document.querySelector('.container'))
 }
 
 app()
