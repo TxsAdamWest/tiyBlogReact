@@ -5,7 +5,21 @@ const app = function() {
 
 	const Header = React.createClass({
 		render: () => {
-			return <h1>Werd.</h1>
+			return <div>
+						<img src="../images/houston.jpg"></img>
+					</div>
+		}
+	})
+
+	const Body = React.createClass({
+		render: () => {
+			return <p>This works!</p>
+		}
+	})
+
+	const Midsection = React.createClass({
+		render: () => {
+			return 
 		}
 	})
 
