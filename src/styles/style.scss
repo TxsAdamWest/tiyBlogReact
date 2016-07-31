@@ -8,3 +8,39 @@ h1 {
 	text-align: center;
 	color: fuchsia;
 }
+
+.header {
+	display: flex;
+}
+
+.banner {
+	position: relative;
+	width: 100%
+}
+
+.icon {
+	position: absolute;
+	top:48vh;
+	left: 15%;
+	border: 4px solid #fff;
+	border-radius: 100px;
+	width: 100px;
+}
+
+.bodyContainer {
+	display: flex;
+	margin: 40px auto;
+}
+
+.bodyContainer > * {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.sect1 {
+	flex: 1;
+}
+
+.sect2 {
+	flex: 1;
+}

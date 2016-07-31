@@ -6,12 +6,14 @@ const app = function() {
 	const Body = React.createClass({
 		render: () => {
 			return  <div className="container">
-						<div>
-							<img src="http://magentanova.github.io/html-intro-1/images/houston.jpg"></img>
-							<img src="http://magentanova.github.io/html-intro-1/images/ironyardlogo.png"></img>
+						<div className="header">
+							<img className="banner" src="http://magentanova.github.io/html-intro-1/images/houston.jpg"></img>
+							<img className="icon" src="http://magentanova.github.io/html-intro-1/images/ironyardlogo.png"></img>
 						</div>
-						<Sect1/>
-						<Sect2/>
+						<div className="bodyContainer">
+							<Sect1/>
+							<Sect2/>
+						</div>
 						<FollowBox/>
 					</div>
 		}
@@ -26,7 +28,11 @@ const app = function() {
 
 	const Sect2 = React.createClass({
 		render: () => {
-			return <div className="sect2">ipsum </div>
+			return <div className="sect2">
+						<h3>September 23rd Starts a New Class of The Iron Yard Houston Students</h3>
+
+						<p className="subText"><i><small>By Brian Dorton, Campus Director at The Iron Yard Houston</small></i></p>
+					</div>
 		}
 	})
 
