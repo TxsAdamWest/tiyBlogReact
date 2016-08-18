@@ -1,8 +1,10 @@
+// Default Styles 
 * {
 	font-family: Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
 }
 
+// Header Styles
 h1 {
 	font-size: 300px;
 	text-align: center;
@@ -14,6 +16,7 @@ h1 {
 	height: 300px;
 }
 
+//Top Banner
 .banner {
 	position: relative;
 	width: cover;
@@ -28,6 +31,32 @@ h1 {
 	width: 100px;
 }
 
+// Main Body
+.bodyContainer {
+	display: flex;
+	margin: 60px auto;
+	border: 2px solid magenta;
+}
+
+.bodyContainer > * {
+	text-align: center;
+}
+	// Left Section
+.sect1 {
+	flex: .25;
+	text-align: left;
+	padding: 5px 3%;
+	border: 2px solid lime;
+}
+	// Right Section
+.sect2 {
+	flex: .50;
+	padding-right: 10%;
+	text-align: left;
+	border: 2px solid cyan;
+}
+
+//Follow Box Styles
 .icon2 {
 	width: 25px;
 
@@ -36,31 +65,6 @@ h1 {
 .iconContainer {
 	flex: 1;
 	vertical-align: middle;
-}
-
-.bodyContainer {
-	display: flex;
-	margin: 60px auto;
-	border: 2px solid magenta;
-}
-
-.bodyContainer > * {
-	// margin: 20px auto;
-	text-align: center;
-}
-
-.sect1 {
-	flex: .25;
-	text-align: left;
-	padding: 5px 3%;
-	border: 2px solid lime;
-}
-
-.sect2 {
-	flex: .50;
-	padding-right: 10%;
-	text-align: left;
-	border: 2px solid cyan;
 }
 
 .followBox {
@@ -88,7 +92,7 @@ button {
 
 // Media Query 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .bodyContainer {
   	display: block;
 	}
