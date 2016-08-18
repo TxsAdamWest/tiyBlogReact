@@ -24,7 +24,6 @@ const app = function() {
 			return <div className="sect1">
 						<p><b>THE IRON YARD | HOUSTON</b></p>
 						<p>Happenings and updates from The Iron Yard in Houston, TX</p>
-
 						<input type="search" placeholder="Search"></input>
 						<p className="subSearch">Enter Keywords</p>
 

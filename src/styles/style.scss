@@ -45,20 +45,20 @@ h1 {
 }
 
 .bodyContainer > * {
-	margin: 20px auto;
+	// margin: 20px auto;
 	text-align: center;
 }
 
 .sect1 {
 	flex: .25;
 	text-align: left;
-	padding: 0 10%;
+	padding: 5px 3%;
 	border: 2px solid lime;
 }
 
 .sect2 {
-	flex: .75;
-	padding: 0 10%;
+	flex: .50;
+	padding-right: 10%;
 	text-align: left;
 	border: 2px solid cyan;
 }
@@ -71,7 +71,7 @@ h1 {
 	border: 1px solid grey;
 	border-radius: 25px;
 	background: #fff;
-	width: 200px;
+	width: 300px;
 	margin: 25px;
 }
 
@@ -84,7 +84,6 @@ button {
 .box1 {
 	display: flex;
 	border: 2px solid tomato;
-	// height: 100px;
 }
 
 // Media Query 
@@ -92,4 +91,5 @@ button {
 @media (max-width: 600px) {
   .bodyContainer {
   	display: block;
+	}
 }
