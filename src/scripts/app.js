@@ -52,10 +52,10 @@ const app = function() {
 
 	const FollowBox = React.createClass({
 		render: () => {
-			return <div className="followBox"> <h3>Never miss a post!</h3>
+			return <div className="followBox"> <h3>Never miss a post!</h3><hr/>
 						<div className="box1">
 							<div className="iconContainer"><img className="icon2" src="http://magentanova.github.io/html-intro-1/images/ironyardlogo.png"/>
-							</div><p>TIY Houston</p><p>The Iron Yard | Houston</p>
+							</div><div className="followText"><p>TIY Houston</p><p>The Iron Yard | Houston</p></div>
 								 <button>+ Follow</button>
 						</div>
 
