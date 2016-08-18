@@ -41,6 +41,7 @@ h1 {
 .bodyContainer {
 	display: flex;
 	margin: 60px auto;
+	border: 2px solid magenta;
 }
 
 .bodyContainer > * {
@@ -49,15 +50,17 @@ h1 {
 }
 
 .sect1 {
-	flex: 1;
-	// width: 100px;
-	// margin: 0 auto;
+	flex: .25;
+	text-align: left;
+	padding: 0 10%;
+	border: 2px solid lime;
 }
 
 .sect2 {
-	flex: 1;
-	// width: 400px;
-	// margin: 0 auto;
+	flex: .75;
+	padding: 0 10%;
+	text-align: left;
+	border: 2px solid cyan;
 }
 
 .followBox {
@@ -75,11 +78,18 @@ h1 {
 button {
 	background: dodgerblue;
 	color: #fff;
-	width:100px;
+	width: 100px;
 }
 
 .box1 {
 	display: flex;
 	border: 2px solid tomato;
 	// height: 100px;
+}
+
+// Media Query 
+
+@media (max-width: 600px) {
+  .bodyContainer {
+  	display: block;
 }

@@ -25,8 +25,7 @@ const app = function() {
 						<p><b>THE IRON YARD | HOUSTON</b></p>
 						<p>Happenings and updates from The Iron Yard in Houston, TX</p>
 
-						<p className="search">Search </p>
-						<input type="search"></input>
+						<input type="search" placeholder="Search"></input>
 						<p className="subSearch">Enter Keywords</p>
 
 				</div>
