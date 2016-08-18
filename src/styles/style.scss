@@ -30,7 +30,6 @@
 .bodyContainer {
 	display: flex;
 	margin: 60px auto;
-	// border: 2px solid magenta;
 }
 
 .bodyContainer > * {
@@ -41,7 +40,6 @@
 	flex: .25;
 	text-align: left;
 	padding: 5px 3%;
-	// border: 2px solid lime;
 }
 	// Right Section
 .sect2 {
@@ -53,9 +51,7 @@
 
 //Follow Box Styles
 
-
 .followBox {
-	// display: flex;
 	font-size:.6em;
 	position: fixed;
 	bottom: 0;
@@ -105,7 +101,6 @@ button {
 .iconContainer {
 	flex: 1;
 	vertical-align: middle;
-	// height: 30px;
 	padding: 1%;
 	margin-left: 10px;
 }
@@ -115,7 +110,6 @@ button {
 	height: 40px;
 	border-radius: 10px 10px 10px 10px;
 }
-
 
 // Media Query 
 
