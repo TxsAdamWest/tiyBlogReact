@@ -61,7 +61,6 @@
 	background: #fff;
 	width: 300px;
 	margin: 25px;
-
 }
 
 // Follow Box Contents
@@ -77,7 +76,9 @@
 }
 
 .ft1 {
-	font-weight: bold;	
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;	
 }
 
 .ft2 {
@@ -85,8 +86,10 @@
 	color: rgba(0,0,0, .5);
 }
 
-h5 {
+.fbh {
 	padding: 0 10%;
+	font-size: 12px;
+	font-weight: bolder;
 }
 
 button {

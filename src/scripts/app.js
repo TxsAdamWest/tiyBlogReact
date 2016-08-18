@@ -52,7 +52,7 @@ const app = function() {
 
 	const FollowBox = React.createClass({
 		render: () => {
-			return <div className="followBox"><h5>Never miss a post!</h5><hr/>
+			return <div className="followBox"><p className="fbh">Never miss a post!</p><hr/>
 						<div className="box1">
 							<div className="iconContainer"><img className="icon2" src="http://magentanova.github.io/html-intro-1/images/ironyardlogo.png"/>
 							</div><div className="followText"><p className="ft1">TIY Houston</p><p className="ft2">The Iron Yard | Houston</p></div>
