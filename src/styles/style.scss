@@ -48,14 +48,11 @@
 	flex: .50;
 	padding-right: 10%;
 	text-align: left;
-	// border: 2px solid cyan;
+	padding: 5px 3%;
 }
 
 //Follow Box Styles
-.icon2 {
-	width: 50px;
-	height: 50px;
-}
+
 
 .followBox {
 	// display: flex;
@@ -64,7 +61,7 @@
 	bottom: 0;
 	right: 0;
 	border: 1px solid grey;
-	border-radius: 25px;
+	border-radius: 10px;
 	background: #fff;
 	width: 300px;
 	margin: 25px;
@@ -75,26 +72,49 @@
 
 .box1 {
 	display: flex;
-	// border: 2px solid tomato;
 	height: 50px;
 }
 
 .followText {
-	flex: .4;
+	flex: 2;	
+	text-align: left;
+}
+
+.ft1 {
+	font-weight: bold;	
+}
+
+.ft2 {
+	font-style: italic;
+	color: rgba(0,0,0, .5);
+}
+
+h5 {
+	padding: 0 10%;
 }
 
 button {
-	flex: .3;
+	flex: 1;
 	background: dodgerblue;
 	color: #fff;
+	height: 35px;
+	vertical-align: middle;
+	margin: 5px 10px;
 }
 
 .iconContainer {
-	flex: .3;
+	flex: 1;
 	vertical-align: middle;
-	height: 25px;
+	// height: 30px;
+	padding: 1%;
+	margin-left: 10px;
 }
 
+.icon2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px 10px 10px 10px;
+}
 
 
 // Media Query 
@@ -103,4 +123,8 @@ button {
   .bodyContainer {
   	display: block;
 	}
+	h3 {
+		text-align: left;
+	}
+
 }
